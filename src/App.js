@@ -21,22 +21,26 @@ export default class App extends Component {
     return(
       <Provider store = {dataStore}>
         <Router>
-          <header>
-              <Navigation/>
-          </header>
-          <section>
-            <Selector>
-              <Start />
-              <ApisMelifera />
-              <Anatomy />
-              <SocialStructure />
-              <LifeCycle />
-              <YearForBees />
-              <Products />
-              <Quiz />
-            </Selector>           
-          </section>
-          <Footer />
+          <div className = 'page-container'>
+            <div className = 'page-wrap'>
+              <header>
+                  <Navigation/>
+              </header>
+              <section>
+                <Selector>
+                  <Start />
+                  <ApisMelifera />
+                  <Anatomy />
+                  <SocialStructure />
+                  <LifeCycle />
+                  <YearForBees />
+                  <Products />
+                  <Quiz />
+                </Selector>           
+              </section>
+              <Footer />
+            </div>
+          </div>
         </Router>
       </Provider> 
     )

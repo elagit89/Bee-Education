@@ -7,14 +7,18 @@
 @import url('css/QuizCSS.css');
 
 
-header {
+.page-container {
+    background-color: black;
+}
+
+.page-wrap {
+    margin: 0px auto;
     max-width: 1920px;
 }
 
 section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
-    max-width: 1920px;
     background-image: url('images/bg.jpg');
     background-repeat: repeat;
     padding-bottom: 40px;
@@ -307,8 +311,6 @@ h5 {
 
 
 footer{
-    width: 100%;
-    max-width: 1920px;
     height: 250px;
     background-color: rgb(0, 0, 0);
     
