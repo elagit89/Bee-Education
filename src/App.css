@@ -135,7 +135,7 @@ a:hover {
     top: 5px;
     left: 19px;
     text-shadow: 0px 0px 50px rgb(255, 255, 255);
-    animation: title 1s linear 1s 1 normal forwards;
+    animation: title 1s linear 1.5s 1 normal forwards;
     opacity: 0;
     
    
@@ -478,7 +478,9 @@ footer{
         
         width: 770px;
         height: 400px;
-        animation: im1 1s linear 0s 1 normal forwards;
+        margin-top: 0px;
+        margin-left: 0px;
+        animation: im1 1s linear 0.5s 1 normal forwards;
         
         
     }
@@ -500,7 +502,9 @@ footer{
     .image2 {
         width: 510px;
         height: 570px;
-        animation: im2 1s linear 0s 1 normal forwards;
+        margin-top: 0px;
+        margin-left:40px;
+        animation: im2 1s linear 0.5s 1 normal forwards;
         
         
 
@@ -525,7 +529,9 @@ footer{
     .image3 {
         width: 770px;
         height: 453px;
-        animation: im3 1s linear 0s 1 normal forwards;
+        margin-top: 40px;
+        margin-left: 0px;
+        animation: im3 1s linear 0.5s 1 normal forwards;
         
         
 
@@ -549,7 +555,9 @@ footer{
     .image4 {
         width: 510px;
         height: 283px;
-        animation: im4 1s linear 0s 1 normal forwards;
+        margin-top: 40px;
+        margin-left: 40px;
+        animation: im4 1s linear 0.5s 1 normal forwards;
     }
 
     @keyframes im4{
